@@ -1,112 +1,1602 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" appversion="7.1.9" apprev="20995" hassounds="0">
+<tour appversion="7.1.12" apprev="21036" hassounds="0" start="node1">
   <panorama id="node1">
-    <input leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1472" levelbias="0.400" height="1472" levelingpitch="0" levelingroll="0" overlap="1">
-      <level height="1472" predecode="0" width="1472" preload="0"/>
-      <level height="736" predecode="0" width="736" preload="0"/>
-      <level height="368" predecode="1" width="368" preload="1"/>
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start projection="4" pan="0" tilt="0" fov="100"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" tilt="90" fov="140" fovfisheye="360"/>
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
     </view>
-    <userdata tags="L26" latitude="" heading="0" customnodeid="" comment="" datetime="2025/11/27 下午 02:56" title="DCIM\Camera01\IMG_20251127_145615_00_408.ins" longitude="" author="" description="" copyright="" info="" nodeid="node1" source=""/>
-    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
-      <label enabled="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" width="180" border="1" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.25098"/>
-      <hotspot id="Point01" description="" pan="-142.38" tilt="0.68" url="{node3}" target="$fwd" skinid="ht_node" title="L26門口"/>
+    <userdata author="" comment="" latitude="" description="起點" customnodeid="" longitude="" datetime="2026/5/31 下午 02:38" heading="0" copyright="" tags="L26" info="" title="L26-1" nodeid="node1" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-7.08" target="$fwd" url="{node2}" pan="-177.51" title="L26-1" description="往大門入口"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-2.71" target="$fwd" url="{node7}" pan="-263.75" title="L26-1右" description="戰車區1"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomspeed="2" zoomout="0" zoomafterinfov="140" softedge="0" blendtime="1" delay="none" zoomfov="40" zoomoutpause="1" zoomafteroutfov="40" type="crossdissolve" zoomin="0" blendcolor="0x000000"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" lockedwheel="0" sensitivity="8" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" contextvr="1" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" simulatemass="1"/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node7">
+    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="戰車區1" customnodeid="" longitude="" datetime="2026/5/30 下午 01:15" heading="0" copyright="" tags="Pano2VR7" info="" title="L26-1-1" nodeid="node7" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-2.1" target="$bwd" url="{node1}" pan="-93.05" title="L26-1-1後" description="回起點"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-1.69" target="$fwd" url="{node8}" pan="-273.35" title="L26-1-1前" description="往戰車區2"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node8">
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="戰車區2" customnodeid="" longitude="" datetime="2026/5/30 下午 01:18" heading="0" copyright="" tags="Pano2VR7" info="" title="L26-1-2" nodeid="node8" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-1.87" target="$bwd" url="{node7}" pan="-95.38" title="L26-1-2後" description="回戰車區1"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-4.63" target="$fwd" url="{node9}" pan="-273.7" title="L26-1-2前" description="往戰車區3"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node9">
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="戰車區3" customnodeid="" longitude="" datetime="2026/5/30 下午 01:20" heading="0" copyright="" tags="Pano2VR7" info="" title="L26-1-3" nodeid="node9" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-12.39" target="$bwd" url="{node8}" pan="-71.19" title="L26-1-3後" description="回戰車區2"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-5.1" target="$fwd" url="{node10}" pan="-251.6" title="L26-1-3前" description="往戰車區4"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node10">
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="戰車區4" customnodeid="" longitude="" datetime="2026/5/30 下午 01:21" heading="0" copyright="" tags="Pano2VR7" info="" title="L26-1-4" nodeid="node10" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-13.44" target="$bwd" url="{node9}" pan="-88.13" title="L26-1-4" description="回戰車區3"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="大門入口" customnodeid="" longitude="" datetime="2026/5/30 上午 11:20" heading="0" copyright="" tags="L26" info="" title="L26-2" nodeid="node2" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-7.96" target="$bwd" url="{node1}" pan="-90.5" title="L26-2" description="回起點"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-0.28" target="$fwd" url="{node3}" pan="-273.32" title="L26-2" description="往哨口中央"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
   </panorama>
   <panorama id="node3">
-    <input leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1472" levelbias="0.400" height="1472" levelingpitch="0" levelingroll="0" overlap="1">
-      <level height="1472" predecode="0" width="1472" preload="0"/>
-      <level height="736" predecode="0" width="736" preload="0"/>
-      <level height="368" predecode="1" width="368" preload="1"/>
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start projection="4" pan="0" tilt="0" fov="100"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" tilt="90" fov="140" fovfisheye="360"/>
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
     </view>
-    <userdata tags="L26" latitude="" heading="0" customnodeid="" comment="" datetime="2025/11/27 下午 02:59" title="DCIM\Camera01\IMG_20251127_145930_00_410.ins" longitude="" author="" description="" copyright="" info="" nodeid="node3" source=""/>
-    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
-      <label enabled="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" width="180" border="1" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.25098"/>
-      <hotspot id="Point01" description="" pan="-270.35" tilt="-4.19" url="{node1}" target="_top" skinid="ht_node" title="L26戰車區"/>
-      <hotspot id="Point02" description="" pan="-182.81" tilt="-5.68" url="{node4}" target="_top" skinid="ht_node" title="L26大門"/>
+    <userdata author="" comment="" latitude="" description="哨口中央" customnodeid="" longitude="" datetime="2026/5/30 上午 11:22" heading="0" copyright="" tags="L26" info="" title="L26-3" nodeid="node3" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-11.37" target="$bwd" url="{node2}" pan="-176.32" title="L26-3後" description="回大門入口"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="0.06" target="$fwd" url="{node4}" pan="-85.56" title="L26-3右" description="往右哨口&#xa;"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="8.21" target="$fwd" url="{node5}" pan="-265.81" title="L26-3左" description="往左哨口"/>
+      <hotspot id="Point04" skinid="ht_node" tilt="-17.33" target="$fwd" url="{node6}" pan="-354.55" title="L26-3前" description="往地圖區"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomspeed="2" zoomout="0" zoomafterinfov="140" softedge="0" blendtime="1" delay="none" zoomfov="40" zoomoutpause="1" zoomafteroutfov="40" type="crossdissolve" zoomin="0" blendcolor="0x000000"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" lockedwheel="0" sensitivity="8" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" contextvr="1" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" simulatemass="1"/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
   </panorama>
   <panorama id="node4">
-    <input leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1472" levelbias="0.400" height="1472" levelingpitch="0" levelingroll="0" overlap="1">
-      <level height="1472" predecode="0" width="1472" preload="0"/>
-      <level height="736" predecode="0" width="736" preload="0"/>
-      <level height="368" predecode="1" width="368" preload="1"/>
+    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start projection="4" pan="0" tilt="0" fov="100"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" tilt="90" fov="140" fovfisheye="360"/>
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
     </view>
-    <userdata tags="L26" latitude="" heading="0" customnodeid="" comment="" datetime="2025/11/27 下午 03:00" title="DCIM\Camera01\IMG_20251127_150020_00_411.ins" longitude="" author="" description="" copyright="" info="" nodeid="node4" source=""/>
-    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
-      <label enabled="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" width="180" border="1" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.25098"/>
-      <hotspot id="Point01" description="" pan="-176.73" tilt="-1.86" url="{node3}" target="_top" skinid="ht_node" title="L26門口"/>
-      <hotspot id="Point02" description="" pan="-357.66" tilt="-8.36" url="{node5}" target="_top" skinid="ht_node" title="L26門內-1"/>
+    <userdata author="" comment="" latitude="" description="右哨口" customnodeid="" longitude="" datetime="2026/5/31 下午 12:49" heading="0" copyright="" tags="L26" info="" title="L26-3-1" nodeid="node4" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-8.17" target="$bwd" url="{node3}" pan="-3.49" title="L26-3-1" description="回哨口中央"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomspeed="2" zoomout="0" zoomafterinfov="140" softedge="0" blendtime="1" delay="none" zoomfov="40" zoomoutpause="1" zoomafteroutfov="40" type="crossdissolve" zoomin="0" blendcolor="0x000000"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" lockedwheel="0" sensitivity="8" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" contextvr="1" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" simulatemass="1"/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
   </panorama>
   <panorama id="node5">
-    <input leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1472" levelbias="0.400" height="1472" levelingpitch="0" levelingroll="0" overlap="1">
-      <level height="1472" predecode="0" width="1472" preload="0"/>
-      <level height="736" predecode="0" width="736" preload="0"/>
-      <level height="368" predecode="1" width="368" preload="1"/>
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start projection="4" pan="0" tilt="0" fov="100"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" tilt="90" fov="140" fovfisheye="360"/>
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
     </view>
-    <userdata tags="L26" latitude="" heading="0" customnodeid="" comment="" datetime="2025/11/27 下午 03:02" title="DCIM\Camera01\IMG_20251127_150257_00_412.ins" longitude="" author="" description="" copyright="" info="" nodeid="node5" source=""/>
-    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
-      <label enabled="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" width="180" border="1" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" borderalpha="1" wordwrap="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.25098"/>
-      <hotspot id="Point01" description="" pan="-184.27" tilt="1.5" url="{node4}" target="_top" skinid="ht_node" title="L26大門"/>
+    <userdata author="" comment="" latitude="" description="左哨口" customnodeid="" longitude="" datetime="2026/5/31 下午 12:58" heading="0" copyright="" tags="L26" info="" title="L26-3-2" nodeid="node5" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-12.25" target="$bwd" url="{node3}" pan="-0.13" title="L26-3-2" description="回哨口中央"/>
     </hotspots>
-    <media>
-      <image pan="-0.840" tilt="-4.100" rotx="6.120" popoutscaling="100" width="544" clickmode="1" id="Element02" stretch="1.023" height="764" popbackmode="0" fov="22.540" rotz="-0.410" roty="-0.440" hidepinned="0" handcursor="1">
-        <source url="media/L26-1.png"/>
-      </image>
-    </media>
-    <transition enabled="1" zoomspeed="2" zoomout="0" zoomafterinfov="140" softedge="0" blendtime="1" delay="none" zoomfov="40" zoomoutpause="1" zoomafteroutfov="40" type="crossdissolve" zoomin="0" blendcolor="0x000000"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" lockedwheel="0" sensitivity="8" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" contextvr="1" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" simulatemass="1"/>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node6">
+    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="地圖區" customnodeid="" longitude="" datetime="2026/5/30 上午 11:25" heading="0" copyright="" tags="L26" info="" title="L26-4" nodeid="node6" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="1.71" target="$bwd" url="{node3}" pan="-215.24" title="L26-4" description="回哨口中央"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-8.53" target="$fwd" url="{node11}" pan="-85.86" title="L26-4" description="往右側"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-9.1" target="$fwd" url="{node13}" pan="-333.67" title="L26-4" description="往左側"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node11">
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="右側路線" customnodeid="" longitude="" datetime="2026/5/30 上午 11:26" heading="0" copyright="" tags="L26" info="" title="L26-5" nodeid="node11" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-11.54" target="$bwd" url="{node6}" pan="-203.64" title="L26-5" description="回地圖前"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-5.44" target="$fwd" url="{node14}" pan="-29.16" title="L26-5右" description="前往002門口"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-14.03" target="$fwd" url="{node18}" pan="-0.57" title="L26-5前" description="往砲陣地右側路線起點"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node13">
+    <input leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="地圖左側" customnodeid="" longitude="" datetime="2026/5/30 上午 11:32" heading="0" copyright="" tags="L26" info="" title="L26-6" nodeid="node13" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-16.71" target="$bwd" url="{node6}" pan="-35.05" title="L26-6" description="回地圖前"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-21.47" target="$fwd" url="{node20}" pan="-236.89" title="L26-6前" description="往砲陣地左側路線起點"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node14">
+    <input leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:32" heading="0" copyright="" tags="L26" info="" title="L26-7" nodeid="node14" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-4.98" target="$bwd" url="{node11}" pan="-170.4" title="L26-7回5" description="回L26-5"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-20.58" target="$fwd" url="{node15}" pan="-59.16" title="L26-7" description="前往7-1"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-11.74" target="$fwd" url="{node18}" pan="-193.99" title="L26-7前" description="往砲陣地右側路線"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node15">
+    <input leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:34" heading="0" copyright="" tags="L26" info="" title="L26-7-1" nodeid="node15" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-22.31" target="$bwd" url="{node14}" pan="-240.17" title="L26-7-1" description="回002門口"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-12.41" target="$fwd" url="{node16}" pan="-94.74" title="L26-7-1前" description="前往7-2"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node16">
+    <input leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:34" heading="0" copyright="" tags="L26" info="" title="L26-7-2" nodeid="node16" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-12.24" target="$bwd" url="{node15}" pan="-207.12" title="L26-7-2" description="回7-1"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-11.9" target="$fwd" url="{node17}" pan="-30.18" title="L26-7-2前" description="前往7-3"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node17">
+    <input leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:35" heading="0" copyright="" tags="L26" info="" title="L26-7-3" nodeid="node17" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-5.92" target="$bwd" url="{node16}" pan="-199.26" title="L26-7-3" description="回7-2"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node18">
+    <input leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:11" heading="0" copyright="" tags="L26" info="" title="L26-8" nodeid="node18" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-22.47" target="$bwd" url="{node11}" pan="-335.21" title="L26-8後" description="回地圖右側起點"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-2.97" target="$fwd" url="{node14}" pan="-217.32" title="L26-8右" description="前往002門口"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-11.58" target="$fwd" url="{node19}" pan="-132.84" title="L26-8前" description="往砲陣地右側路線後段"/>
+      <hotspot id="Point04" skinid="ht_node" tilt="-9.83" target="$fwd" url="{node20}" pan="-23.05" title="L26-8左" description="往砲陣地左側起點"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node19">
+    <input leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:12" heading="0" copyright="" tags="L26" info="" title="L26-9" nodeid="node19" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-15.78" target="$bwd" url="{node18}" pan="-11.25" title="L26-9後" description="回砲陣地右側路線起點"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-11.2" target="$fwd" url="{node23}" pan="-101.18" title="L26-9左" description="往砲陣地左右路線交匯處"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-10.13" target="$fwd" url="{node63}" pan="-194.01" title="L26-9前" description="往鍋爐間前區"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node20">
+    <input leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:08" heading="0" copyright="" tags="L26" info="" title="L26-10" nodeid="node20" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-21.24" target="$bwd" url="{node13}" pan="-131.49" title="L26-10後" description="回地圖左側起點"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-6.24" target="$fwd" url="{node18}" pan="-91.21" title="L26-10右" description="往砲陣地右側路線起點"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-20.3" target="$fwd" url="{node21}" pan="-1.42" title="L26-10" description="往砲陣地左側中段，有戰車型號解說"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node21">
+    <input leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:07" heading="0" copyright="" tags="L26" info="" title="L26-11" nodeid="node21" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-18.58" target="$bwd" url="{node20}" pan="-148.26" title="L26-11後" description="回中庭戰車左側路線起點"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-22.59" target="$fwd" url="{node22}" pan="-350.32" title="L26-11前" description="往砲陣地左側路線後段，往003入口露天區"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-14.44" target="$fwd" url="{node24}" pan="-298.2" title="L26-11左" description="往戰車堡戶外區"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node22">
+    <input leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:04" heading="0" copyright="" tags="L26" info="" title="L26-12" nodeid="node22" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-19.28" target="$bwd" url="{node21}" pan="-112.53" title="L26-12後" description="回砲陣地左側路線中段，有戰車型號解說"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-14.43" target="$fwd" url="{node24}" pan="-208.35" title="L26-12左" description="往戰車堡戶外區"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-12" target="$fwd" url="{node23}" pan="-6.29" title="L26-12右" description="往砲陣地左右路線交匯處"/>
+      <hotspot id="Point04" skinid="ht_node" tilt="-11.9" target="$fwd" url="{node25}" pan="-290.3" title="L26-12前" description="往003入口處"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node23">
+    <input leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:13" heading="0" copyright="" tags="L26" info="" title="L26-13" nodeid="node23" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-12.58" target="$fwd" url="{node19}" pan="-1.66" title="L26-13左" description="往砲陣地右側路線後段"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-12.55" target="$fwd" url="{node22}" pan="-150.63" title="L26-13右" description="往砲陣地左側路線後段，往003入口露天區"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node24">
+    <input leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:03" heading="0" copyright="" tags="L26" info="" title="L26-14" nodeid="node24" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-13.79" target="$fwd" url="{node22}" pan="-168.61" title="L26-14前" description="往砲陣地左側路線後段，往003入口露天區"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-12.28" target="$fwd" url="{node21}" pan="-213.76" title="L26-14右" description="往砲陣地左側路線中段，有戰車型號解說"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node25">
+    <input leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:02" heading="0" copyright="" tags="L26" info="" title="L26-15" nodeid="node25" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-16.11" target="$bwd" url="{node22}" pan="-228.77" title="L26-15後" description="回砲陣地左側路線後段，往003入口露天區"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-19.32" target="$fwd" url="{node26}" pan="-54.94" title="L26-15前" description="往槍械室外走廊"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node26">
+    <input leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:01" heading="0" copyright="" tags="L26" info="" title="L26-16" nodeid="node26" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-22.35" target="$fwd" url="{node27}" pan="-59.01" title="L26-16右" description="往槍械室門口"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-23.49" target="$bwd" url="{node26}" pan="-144.37" title="L26-16後" description="回003入口處"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-19.75" target="$fwd" url="{node28}" pan="-312.32" title="L26-16前" description="往排長室外橫長廊"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node27">
+    <input leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:01" heading="0" copyright="" tags="L26" info="" title="L26-16-1" nodeid="node27" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-9.79" target="$fwd" url="{node26}" pan="-211.43" title="L26-16-1" description="回槍械室外長廊"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node28">
+    <input leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:57" heading="0" copyright="" tags="L26" info="" title="L26-17" nodeid="node28" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-25.32" target="$bwd" url="{node26}" pan="-223.92" title="L26-17後" description="回槍械室外長廊"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-11.34" target="$fwd" url="{node29}" pan="-338.21" title="L26-17左" description="往戰車堡入口處"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-10.14" target="$fwd" url="{node52}" pan="-118.69" title="L26-17右" description="往倉庫門口"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node29">
+    <input leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:57" heading="0" copyright="" tags="L26" info="" title="L26-18" nodeid="node29" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-21.56" target="$bwd" url="{node28}" pan="-233.16" title="L26-18右" description="回排長室外橫長廊"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-22.1" target="$fwd" url="{node30}" pan="-37.77" title="L26-18左" description="往戰車堡內前方"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-17.34" target="$fwd" url="{node32}" pan="-141.96" title="L26-18前" description="往左側長廊起點"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node30">
+    <input leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:58" heading="0" copyright="" tags="L26" info="" title="L26-18-1" nodeid="node30" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-25.28" target="$bwd" url="{node29}" pan="-227.76" title="L28-18-1後" description="回戰車堡入口處"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-1.68" target="$fwd" url="{node31}" pan="-324.67" title="L26-18-1前" description="往戰車堡內後方"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node31">
+    <input leveltileurl="tiles/node31/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:59" heading="0" copyright="" tags="L26" info="" title="L26-18-2" nodeid="node31" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-9.1" target="$fwd" url="{node30}" pan="-121.36" title="L26-18-2" description="回戰車堡內前方"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node32">
+    <input leveltileurl="tiles/node32/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:53" heading="0" copyright="" tags="L26" info="" title="L26-19" nodeid="node32" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-11.18" target="$fwd" url="{node29}" pan="-102.76" title="L26-19後" description="回戰車堡入口處"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-18.57" target="$fwd" url="{node33}" pan="-288.08" title="L26-19前" description="往左側寢室區(前)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node33">
+    <input leveltileurl="tiles/node33/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:51" heading="0" copyright="" tags="L26" info="" title="L26-20" nodeid="node33" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-24.53" target="$bwd" url="{node32}" pan="-109.62" title="L26-20後" description="回左側長廊起點"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-16.06" target="$fwd" url="{node34}" pan="-263.13" title="L26-20前" description="往左側寢室區(中)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node34">
+    <input leveltileurl="tiles/node34/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:48" heading="0" copyright="" tags="L26" info="" title="L26-20-1" nodeid="node34" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-14.08" target="$bwd" url="{node33}" pan="-97.24" title="L26-20-1後" description="回左側寢室區(前)"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-16.86" target="$fwd" url="{node35}" pan="-263.23" title="L26-20-1前" description="往左側寢室區(後)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node35">
+    <input leveltileurl="tiles/node35/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:47" heading="0" copyright="" tags="L26" info="" title="L26-20-2" nodeid="node35" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-18.41" target="$fwd" url="{node36}" pan="-53.69" title="L26-20-2前" description="往槍械室左側"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-16.77" target="$bwd" url="{node34}" pan="-240.77" title="L26-20-2後" description="回左側寢室區(中)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node36">
+    <input leveltileurl="tiles/node36/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:47" heading="0" copyright="" tags="L26" info="" title="L26-21" nodeid="node36" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-18.27" target="$bwd" url="{node35}" pan="-63.41" title="L26-21後" description="回左側寢室區(後)"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-10.58" target="$fwd" url="{node37}" pan="-255.65" title="L26-21前" description="往槍械室左前方射口處"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node37">
+    <input leveltileurl="tiles/node37/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:46" heading="0" copyright="" tags="L26" info="" title="L26-22" nodeid="node37" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-11.37" target="$bwd" url="{node36}" pan="-314.89" title="L26-22後" description="回槍械室左側"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-23.4" target="$fwd" url="{node38}" pan="-176.62" title="L26-22前" description="往灘頭堡起點"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node38">
+    <input leveltileurl="tiles/node38/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:40" heading="0" copyright="" tags="L26" info="" title="L26-23" nodeid="node38" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-6.17" target="$bwd" url="{node37}" pan="-206.59" title="L26-23左後" description="回槍械室左前方射口處"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-10.2" target="$fwd" url="{node45}" pan="-94.8" title="L26-23右後" description=" 回槍械室右前方射口處"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-17.28" target="$fwd" url="{node39}" pan="-324.29" title="L26-23前" description="往灘頭堡射口區(1)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node39">
+    <input leveltileurl="tiles/node39/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:42" heading="0" copyright="" tags="L26" info="" title="L26-23-1" nodeid="node39" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-20.86" target="$bwd" url="{node38}" pan="-247.13" title="L26-23-1後" description="回灘頭堡起點"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-14.4" target="$fwd" url="{node40}" pan="-79.26" title="L26-23-1前" description="往灘頭堡射口區(2)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node40">
+    <input leveltileurl="tiles/node40/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:42" heading="0" copyright="" tags="L26" info="" title="L26-23-2" nodeid="node40" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-11.23" target="$fwd" url="{node41}" pan="-249.19" title="L26-23-2前" description="往灘頭堡射口區(3)"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-12.52" target="$bwd" url="{node39}" pan="-80.06" title="L26-23-2後" description="回灘頭堡射口區(1)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node41">
+    <input leveltileurl="tiles/node41/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:43" heading="0" copyright="" tags="L26" info="" title="L26-23-3" nodeid="node41" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-10.25" target="$bwd" url="{node40}" pan="-253.96" title="L26-23-3後" description="回灘頭堡射口區(2)"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-22.08" target="$fwd" url="{node42}" pan="-104.26" title="L26-23-3前" description="往灘頭堡射口區(4)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node42">
+    <input leveltileurl="tiles/node42/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:43" heading="0" copyright="" tags="L26" info="" title="L26-23-4" nodeid="node42" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-21.84" target="$bwd" url="{node41}" pan="-89.84" title="L26-23-4後" description="回灘頭堡射口區(3)"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-18.51" target="$fwd" url="{node43}" pan="-244.17" title="L26-23-4前" description="往灘頭堡射口區(5)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node43">
+    <input leveltileurl="tiles/node43/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:44" heading="0" copyright="" tags="L26" info="" title="L26-23-5" nodeid="node43" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-11.83" target="$fwd" url="{node44}" pan="-84.02" title="L26-23-5前" description="往灘頭堡射口區(6)"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-16.68" target="$bwd" url="{node42}" pan="-235.68" title="L26-23-5回" description="回灘頭堡射口區(4)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node44">
+    <input leveltileurl="tiles/node44/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:44" heading="0" copyright="" tags="L26" info="" title="L26-23-6" nodeid="node44" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-36.14" target="$bwd" url="{node43}" pan="-188.21" title="L26-23-6" description="灘頭堡射口區最前端，回灘頭堡射口區(5)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node45">
+    <input leveltileurl="tiles/node45/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:39" heading="0" copyright="" tags="L26" info="" title="L26-24" nodeid="node45" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-17.81" target="$fwd" url="{node38}" pan="-188.93" title="L26-24前" description="往灘頭堡起點"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-20.02" target="$bwd" url="{node46}" pan="-54.21" title="L26-24後" description="回槍械室右側"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node46">
+    <input leveltileurl="tiles/node46/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:38" heading="0" copyright="" tags="L26" info="" title="L26-25" nodeid="node46" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-10.35" target="$fwd" url="{node45}" pan="-243.82" title="L26-25前" description=" 往槍械室右前方射口處"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-28.67" target="$bwd" url="{node47}" pan="-83.22" title="L26-25後" description="回右側寢室區(後)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node47">
+    <input leveltileurl="tiles/node47/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:34" heading="0" copyright="" tags="L26" info="" title="L26-26" nodeid="node47" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-13.72" target="$fwd" url="{node46}" pan="-283.76" title="L26-26前" description="往槍械室右側"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-26.66" target="$bwd" url="{node48}" pan="-106.73" title="L26-26後" description="回右側寢室區(中)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node48">
+    <input leveltileurl="tiles/node48/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:31" heading="0" copyright="" tags="L26" info="" title="L26-26-1" nodeid="node48" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-6.8" target="$fwd" url="{node47}" pan="-265.81" title="L26-26-1前" description="往右側寢室區(後)"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-14.77" target="$bwd" url="{node49}" pan="-90.07" title="L26-26-1後" description="回右側寢室區(前)"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node49">
+    <input leveltileurl="tiles/node49/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/30 下午 12:37" heading="0" copyright="" tags="L26" info="" title="L26-26-2" nodeid="node49" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-17" target="$fwd" url="{node48}" pan="-146.34" title="L26-26-2前" description="往右側寢室區(中)"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-11.28" target="$bwd" url="{node50}" pan="-251.61" title="L26-26-2後" description="回排長室門口"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node50">
+    <input leveltileurl="tiles/node50/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:28" heading="0" copyright="" tags="L26" info="" title="L26-27" nodeid="node50" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-13.4" target="$fwd" url="{node49}" pan="-356.17" title="L26-27前" description="往右側寢室區(前)"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-7.17" target="$fwd" url="{node51}" pan="-300.18" title="L26-27左" description="往排長室"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node51">
+    <input leveltileurl="tiles/node51/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/30 下午 12:39" heading="0" copyright="" tags="L26" info="" title="L26-27-1" nodeid="node51" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="2.73" target="$bwd" url="{node50}" pan="-181.76" title="L26-27-1" description="回排長室門口"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node52">
+    <input leveltileurl="tiles/node52/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:56" heading="0" copyright="" tags="L26" info="" title="L26-28" nodeid="node52" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-15.67" target="$fwd" url="{node28}" pan="-235.84" title="L26-28左" description="往排長室外橫長廊"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-18.18" target="$fwd" url="{node50}" pan="-1.67" title="L26-28前" description="往排長室門口"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-11.19" target="$fwd" url="{node53}" pan="-57.61" title="L26-28右" description="往倉庫外長廊"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node53">
+    <input leveltileurl="tiles/node53/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/30 下午 12:14" heading="0" copyright="" tags="L26" info="" title="L26-29" nodeid="node53" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-23.9" target="$fwd" url="{node50}" pan="-138.45" title="L26-29前" description="往排長室門口&#xa;"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-2.74" target="$fwd" url="{node52}" pan="-49.71" title="L26-29左" description="往倉庫門口"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-2.9" target="$fwd" url="{node54}" pan="-239.82" title="L26-29右" description="往廚房門口"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node54">
+    <input leveltileurl="tiles/node54/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:24" heading="0" copyright="" tags="L26" info="" title="L26-30" nodeid="node54" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-4.15" target="$fwd" url="{node53}" pan="-258.1" title="L26-30左" description="往倉庫外長廊"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-16.21" target="$fwd" url="{node55}" pan="-348.85" title="L26-30前" description="往廚房"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-21.66" target="" url="{node56}" pan="-81.36" title="L26-30右" description="往二樓樓梯口"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node55">
+    <input leveltileurl="tiles/node55/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/30 下午 12:11" heading="0" copyright="" tags="L26" info="" title="L26-30-1" nodeid="node55" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="4.85" target="$bwd" url="{node54}" pan="-278.86" title="L26-30-1" description="回廚房門口"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node56">
+    <input leveltileurl="tiles/node56/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:16" heading="0" copyright="" tags="L26" info="" title="L26-31" nodeid="node56" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-13.94" target="$fwd" url="{node54}" pan="-37.71" title="L26-31左" description="往廚房門口"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="7.78" target="$fwd" url="{node57}" pan="-112.02" title="L26-31前" description="往二樓樓梯"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-25.45" target="$fwd" url="{node58}" pan="-223.99" title="L26-31右" description="往砲堡戶外區"/>
+      <hotspot id="Point04" skinid="ht_node" tilt="-13.68" target="$bwd" url="{node63}" pan="-279.01" title="L26-31後" description="回鍋爐間前區"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node57">
+    <input leveltileurl="tiles/node57/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/30 下午 12:41" heading="0" copyright="" tags="L26" info="" title="L26-31-1" nodeid="node57" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-52.2" target="$bwd" url="{node56}" pan="-72.1" title="L26-31-1" description="回二樓樓梯口"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node58">
+    <input leveltileurl="tiles/node58/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:15" heading="0" copyright="" tags="L26" info="" title="L26-32" nodeid="node58" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-20.42" target="$fwd" url="{node56}" pan="-8.04" title="L26-32左" description="往二樓樓梯口"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-16.67" target="$bwd" url="{node63}" pan="-266.55" title="L26-32後" description="回鍋爐間前區"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-17.75" target="$fwd" url="{node59}" pan="-96.86" title="L26-32右前" description="砲堡內右後方"/>
+      <hotspot id="Point04" skinid="ht_node" tilt="-16.19" target="$fwd" url="{node60}" pan="-48.59" title="L26-32左前" description="砲堡內後方"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node59">
+    <input leveltileurl="tiles/node59/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="2976" width="2976" overlap="1">
+      <level height="2976" preload="0" width="2976" predecode="0"/>
+      <level height="1488" preload="0" width="1488" predecode="0"/>
+      <level height="744" preload="0" width="744" predecode="0"/>
+      <level height="372" preload="1" width="372" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/29 下午 03:57" heading="0" copyright="" tags="L26" info="" title="L26-32-1" nodeid="node59" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-10.91" target="$bwd" url="{node58}" pan="-236.24" title="L26-32-1左" description="回砲堡戶外區"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-12.88" target="$fwd" url="{node60}" pan="-290.03" title="L26-32-1前" description="砲堡內後方"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node60">
+    <input leveltileurl="tiles/node60/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="2976" width="2976" overlap="1">
+      <level height="2976" preload="0" width="2976" predecode="0"/>
+      <level height="1488" preload="0" width="1488" predecode="0"/>
+      <level height="744" preload="0" width="744" predecode="0"/>
+      <level height="372" preload="1" width="372" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/29 下午 03:57" heading="0" copyright="" tags="L26" info="" title="L26-32-2" nodeid="node60" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-4.79" target="$bwd" url="{node58}" pan="-87.11" title="L26-32-2右" description="回砲堡戶外區"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-8.68" target="$fwd" url="{node59}" pan="-47.63" title="L26-32-2前" description="砲堡內右後方"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="-4.49" target="$fwd" url="{node61}" pan="-309.8" title="L26-32-2左" description="砲堡內左後方"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node61">
+    <input leveltileurl="tiles/node61/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="2976" width="2976" overlap="1">
+      <level height="2976" preload="0" width="2976" predecode="0"/>
+      <level height="1488" preload="0" width="1488" predecode="0"/>
+      <level height="744" preload="0" width="744" predecode="0"/>
+      <level height="372" preload="1" width="372" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/29 下午 04:01" heading="0" copyright="" tags="L26" info="" title="L26-32-3" nodeid="node61" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-11.47" target="$fwd" url="{node60}" pan="-30.63" title="L26-32-3右" description="砲堡內後方"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-2.53" target="$fwd" url="{node62}" pan="-305.13" title="L26-32-3前" description="砲堡內左前方射口"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node62">
+    <input leveltileurl="tiles/node62/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="2976" width="2976" overlap="1">
+      <level height="2976" preload="0" width="2976" predecode="0"/>
+      <level height="1488" preload="0" width="1488" predecode="0"/>
+      <level height="744" preload="0" width="744" predecode="0"/>
+      <level height="372" preload="1" width="372" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/29 下午 04:02" heading="0" copyright="" tags="L26" info="" title="L26-32-4" nodeid="node62" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-6.11" target="$fwd" url="{node61}" pan="-138.47" title="L26-32-4" description="砲堡內左後方"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node63">
+    <input leveltileurl="tiles/node63/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 02:14" heading="0" copyright="" tags="L26" info="" title="L26-33" nodeid="node63" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-14.12" target="$fwd" url="{node58}" pan="-341.94" title="L26-33前" description="往砲堡戶外區"/>
+      <hotspot id="Point02" skinid="ht_node" tilt="-14.57" target="$fwd" url="{node56}" pan="-305.97" title="L26-33左前" description="往二樓樓梯口"/>
+      <hotspot id="Point03" skinid="ht_node" tilt="2.86" target="$fwd" url="{node64}" pan="-63.32" title="L26-33右" description="往鍋爐間"/>
+      <hotspot id="Point04" skinid="ht_node" tilt="-11.06" target="$bwd" url="{node19}" pan="-163.83" title="L26-33後" description="回砲陣地右側路線後段"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
+  </panorama>
+  <panorama id="node64">
+    <input leveltileurl="tiles/node64/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" height="1520" width="1520" overlap="1">
+      <level height="1520" preload="0" width="1520" predecode="0"/>
+      <level height="760" preload="0" width="760" predecode="0"/>
+      <level height="380" preload="1" width="380" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" fov="140" fovfisheye="360" pan="360" fovstereographic="330"/>
+    </view>
+    <userdata author="" comment="" latitude="" description="" customnodeid="" longitude="" datetime="2026/5/31 下午 01:03" heading="0" copyright="" tags="L26" info="" title="L26-33-1" nodeid="node64" source=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label border="1" enabled="1" bordercolor="0x000000" backgroundalpha="1" background="1" textcolor="0x000000" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textalpha="1" height="20" width="180" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" skinid="ht_node" tilt="-19.07" target="$bwd" url="{node63}" pan="-14.46" title="L26-33-1" description="回鍋爐間前區"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" enabled="1" zoomafterinfov="140" zoomfov="40" zoomout="0" softedge="0" type="crossdissolve" zoomin="0" zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomspeed="2" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedmouse="0" contextprojections="0" speedwheel="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" invertcontrol="1" invertwheel="0" lockedwheel="0" contextvr="1"/>
   </panorama>
   <masternode>
-    <userdata author="" description="" copyright="" comment="" title="" tags=""/>
+    <userdata author="" comment="" copyright="" tags="" title="" description=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map maplimits="24.436088|118.22935|24.435627|118.22917" googlecustomstylecode="" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" mapmaxzoom="18" mapstyle="streets" title="海防據點" id="L26" index="0" mapprovider="openstreetmap" type="web"/>
 </tour>
